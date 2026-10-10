@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker — Login</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body class="auth-page">
+<div class="auth-shell">
+  <section class="auth-brand">
+    <div class="brand-mark">ET</div>
+    <span class="eyebrow">EXPENSE TRACKER</span>
+    <h1>Take control of<br><span>your money.</span></h1>
+    <p>A simple way to see your income, expenses and balance in one calm dashboard.</p>
+    <div class="auth-orbit">
+      <div class="orbit-card"><small>Balance</small><strong>₹48,260</strong><span>↗ 12.8%</span></div>
+      <div class="orbit-dot">₹</div>
+    </div>
+  </section>
+  <section class="auth-card">
+    <div class="mobile-brand"><div class="brand-mark">ET</div><strong>Expense Tracker</strong></div>
+    <span class="eyebrow">WELCOME BACK</span>
+    <h2>Sign in</h2>
+    <p class="muted">Enter your details to continue.</p>
+    <form id="loginForm" class="form-stack">
+      <label>Email<input id="loginEmail" type="email" placeholder="you@example.com" required></label>
+      <label>Password<input id="loginPassword" type="password" placeholder="••••••••" required></label>
+      <p id="loginMessage" class="form-message"></p>
+      <button class="primary-btn" type="submit">Sign in <span>→</span></button>
+    </form>
+    <p class="switch-text">Don't have an account? <a href="signup.html">Create one</a></p>
+    <a class="admin-link" href="admin-login.html">Admin login</a>
+  </section>
+</div>
+<script src="./auth.js"></script>
+</body>
+</html>
